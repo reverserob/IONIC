@@ -1,0 +1,116 @@
+ionCordova/www/templates/menu.html
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-stable">
+            <ion-nav-back-button>
+            </ion-nav-back-button>
+
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+                </button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+
+    <ion-side-menu side="left">
+        <ion-header-bar class="bar-stable">
+            <h1 class="title">Plugins</h1>
+        </ion-header-bar>
+        <ion-content>
+            <ion-list>
+                <ion-item nav-clear menu-close href="#/app/device">
+                    Device
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/battery">
+                    Battery
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/camera">
+                    Camera
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/motion">
+                    Device Motion
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/notifications">
+                    Notifications
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/network">
+                    Network
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/pin">
+                    Pin Dialog
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/share">
+                    Social Sharing
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/sqlite">
+                    SQLite
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/toast">
+                    Toast
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/vibrate">
+                    Vibrate
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>
